@@ -8,7 +8,11 @@ project(drone_scene)
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
+<<<<<<< HEAD
   rospy
+=======
+  rosp
+>>>>>>> origin/main
 )
 
 ## System dependencies are found with CMake's conventions
@@ -103,7 +107,11 @@ find_package(catkin REQUIRED COMPONENTS
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES drone_scene
+<<<<<<< HEAD
 #  CATKIN_DEPENDS rospy
+=======
+#  CATKIN_DEPENDS rosp
+>>>>>>> origin/main
 #  DEPENDS system_lib
 )
 
